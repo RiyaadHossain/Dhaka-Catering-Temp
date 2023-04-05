@@ -20,13 +20,14 @@
   border: 2px solid burlywood;
 }
 
-.footer{
+.footer {
   margin: 45px 15px;
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 5px;
   gap: 5px;
 }

@@ -18,24 +18,29 @@ export default function Home() {
           <p>Exloper our Menu Items</p>
         </div>
 
-        {/* ++++++++++++++++++ Menu Items ++++++++++++++++++ */}
-        <div className={styles.menu_container}>
-          <Image alt='menu-1' src='/menu-1.jpg' width={1000} height={700} className={styles.img} />
-          <Image alt='menu-2' src='/menu-2.jpg' width={1000} height={700} className={styles.img} />
-        </div>
-
-        {/* ++++++++++++++++++ Footer ++++++++++++++++++ */}
+        {/* ++++++++++++++++++ Contact ++++++++++++++++++ */}
         <div className={styles.footer}>
-          <h3 style={{ textAlign: 'center', marginBottom: '25px'}}>For Customize order</h3>
+          <h3 style={{ textAlign: 'center', marginBottom: '25px' }}>For Customize order</h3>
           <div className={styles.contact}>
             <h5>Phone: </h5>
-            <span>01703790978</span>
+            <span>01712791500, 01919111022</span>
           </div>
           <div className={styles.contact}>
             <h5>Email: </h5>
             <span>dhakacaterings@gmail.com</span>
           </div>
+          <div className={styles.contact}>
+            <h5 style={{ color: 'red' }}>Note:</h5>
+            <span>Our Main site is still under development</span>
+          </div>
         </div>
+
+        {/* ++++++++++++++++++ Menu Items ++++++++++++++++++ */}
+        <div className={styles.menu_container}>
+          <Image alt='menu-2' src='/menu-2.jpg' width={1000} height={700} className={styles.img} />
+          <Image alt='menu-1' src='/menu-1.jpg' width={1000} height={700} className={styles.img} />
+        </div>
+
       </div>
     </div>
   )
